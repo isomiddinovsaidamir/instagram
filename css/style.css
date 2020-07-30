@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    line-height: 1.6;
+    background-color: rgba(88, 30, 31, 0.9);
+  
+    
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 30rem;
+    transform: translate(179%, 4%);
+    height: 50rem;
+}
+
+.image img{
+    width: 100%;
+    height: auto;
+    transform: translate(0, 23%);
+    border: 2px solid white;
+}
+
+.top-icon {
+    transform: translate(0, 170%);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1.5px solid #ccc;
+    height: 3rem;
+    padding: 0 .5rem;
+}
+
+.camera {
+    width: 2rem;
+    height: 2rem;
+    fill: #ccc;
+}
+
+.send {
+    width: 2rem;
+    height: 2rem;
+    fill: #ccc;
+}
+
+.dots p {
+    color: #ccc;
+    letter-spacing: 3px;
+    font-size: 2rem;
+    float: right;
+    transform: translate(0, 170%);
+}
+
+.bottom-icon {
+    transform: translate(0, 370%);
+    padding: 0 .5rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.heart {
+    width: 2rem;
+    height: 2rem;
+    fill: #ccc;
+    margin-right: 1.5rem;
+}
+.message-circle {
+    width: 2rem;
+    height: 2rem;
+    fill: #ccc;
+    margin-right: 1.5rem;
+    transform: rotateY(180deg);
+}
+.send-2 {
+    width: 2rem;
+    height: 2rem;
+    fill: #ccc;
+}
+.bookmark {
+    transform: translate(900%, 0);
+    width: 2rem;
+    height: 2rem;
+    fill: #ccc;
+}
+
+.border-bottom {
+    border-bottom: 1.5px solid #ccc;
+    transform: translate(0, 700%);
+}
+
+.bottom-icon-2 {
+    transform: translate(0, 645%);
+    padding: 0 .5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.home {
+    width: 2rem;
+    height: 2rem;
+    fill: #ccc;
+}
+.search {
+    width: 2rem;
+    height: 2rem;
+    fill: #ccc;
+}
+.plus-square {
+    width: 2rem;
+    height: 2rem;
+    fill: #ccc;
+}
+.heart-2 {
+    width: 2rem;
+    height: 2rem;
+    fill: #ccc;
+}
+.user {
+    width: 2rem;
+    height: 2rem;
+    fill: #ccc;
+}
+
+
+
+
+
+
+
+
+
